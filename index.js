@@ -302,6 +302,7 @@ window.addEventListener("keydown", (event) => {
                 break;
             case "ArrowDown":
                 enemy.attack();
+                hitSFX_player2.play();
                 break;
         }
     }
