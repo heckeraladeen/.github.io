@@ -15,7 +15,7 @@ const hitSFX_player2 = new Audio('');
 
 const bgSFX = new Audio('');
 bgSFX.loop = true;
-bgSFX.play();
+bgSFX.autoplay();
 
 
 
