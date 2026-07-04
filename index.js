@@ -14,8 +14,10 @@ const hitSFX_player1 = new Audio('snd-hammer-attacks.mp3');
 const hitSFX_player2 = new Audio('');
 
 const bgSFX = new Audio('');
-bgSFX.loop = true;
+
+audio.muted = true;
 bgSFX.autoplay();
+bgSFX.loop = true;
 
 
 
