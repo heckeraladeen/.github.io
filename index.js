@@ -11,8 +11,9 @@ const gravity = 0.7;
 
 const hitSFX_player1 = new Audio('snd-hammer-attacks.mp3');
 //const hitSFx_player2 = new Audio();
+const hitSFX_player2 = new Audio('');
 
-hitSFX_player1.play();
+
 
 
 
