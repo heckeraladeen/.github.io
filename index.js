@@ -15,7 +15,6 @@ const hitSFX_player2 = new Audio('');
 
 const bgSFX = new Audio('YUKI(ManjiValley).mp3');
 
-bgSFX.muted = true;
 bgSFX.autoplay;
 bgSFX.loop = true;
 
