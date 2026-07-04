@@ -8,6 +8,10 @@ c.fillRect(0, 0, canvas.width, canvas.height);
 
 const gravity = 0.7;
 
+const hitSFX_player1 = new Audio('snd-hammer-attacks.mp3');
+//const hitSFx_player2 = new Audio();
+
+
 const background = new Sprite({
     position: {
         x: 0,
