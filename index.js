@@ -13,7 +13,7 @@ const hitSFX_player1 = new Audio('snd-hammer-attacks.mp3');
 //const hitSFx_player2 = new Audio();
 const hitSFX_player2 = new Audio('');
 
-const bgSFX = new Audio('');
+const bgSFX = new Audio('YUKI(ManjiValley).mp3');
 
 audio.muted = true;
 bgSFX.autoplay();
