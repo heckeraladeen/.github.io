@@ -277,6 +277,7 @@ window.addEventListener("keydown", (event) => {
                 break;
             case " ":
                 player.attack();
+                hitSFX_player1.play();
                 break;
         }
     }
